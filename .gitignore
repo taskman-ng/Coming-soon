@@ -1,2 +1,2 @@
 .cpanel.yml
-asset/node/node_modules
+/node_modules
