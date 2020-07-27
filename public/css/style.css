@@ -9,6 +9,7 @@ body {
 
 .main {
     text-align: center;
+    margin-top: 70px;
 }
 
 .main img{
@@ -104,6 +105,9 @@ input[type=submit]:active{
     }
     .description p, input[type=email] {
         font-size: 17px;
+    }
+    .main {
+        margin-top: 50px;
     }
 }
 
