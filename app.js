@@ -1,6 +1,7 @@
 var express = require ('express');
 var path = require ('path');
 var bodyParser = require ('body-parser');
+var PORT = process.env.PORT || 3000
 var mongoose = require ('mongoose');
 
 var connectDB = require ('./connection/db');
@@ -32,6 +33,6 @@ app.post ('/post-email', function (req, res) {
     });
 });
 
-app.listen (3000, function () {
+app.listen (PORT, function () {
   console.log ('app has started');
 });
