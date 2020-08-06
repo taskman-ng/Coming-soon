@@ -1,8 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@font-face {
+    font-family: boldFont;
+    src: url('../fonts/TT\ Norms\ Pro\ Bold.otf')
+}   
 
-body {
-    font-family: 'DM Sans', sans-serif;
-}
+@font-face {
+    font-family: paragraphFont;
+    src: url('../fonts/TT\ Norms\ Pro\ Regular.otf')
+}   
+
+
 
 .nav-bar{
     display: flex;
@@ -11,7 +17,7 @@ body {
 }
 
 i.fa-instagram {
-    margin-right: 60px;
+    margin-right: 24px;
 }
 
 a i {
@@ -47,12 +53,15 @@ a i {
 .heading-text {
     font-size: 50px;
     color: #2E025A;
+    font-family: boldFont;
 }
 
 .paragraph-text {
     font-size: 18px;
     color: #655970;
-    padding: 0 370px;
+    padding: 0 390px;
+    font-family: paragraphFont;
+    margin-bottom: 20px;
 }
 
 form {
@@ -69,7 +78,7 @@ input[type='submit'] {
     background-color: #9640D9;
     color: #ffffff;
     border: 1px solid #9640D9;
-    font-family:  'DM Sans', sans-serif;
+    font-family: boldFont;
     outline: none;
 
 }
@@ -80,17 +89,22 @@ input[type='email']{
     border-radius: 5px;
     border: 1px solid #C3B7C3;
     outline: none;
-    color: #9640D9;
+    color: #22093B;
     margin-right: 10px;
     width: 28%;
     margin-bottom: 20px;
-
+    font-family: paragraphFont;
 } 
 
 .group-img {
     text-align: center;
 }
 
+@media screen and (max-width: 1202px){
+    .paragraph-text {
+        padding: 0 300px;
+    }
+}
 
 @media screen and (max-width: 1066px){
     .paragraph-text {
