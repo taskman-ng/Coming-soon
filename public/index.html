@@ -11,24 +11,38 @@
 </head>
 
 <body>
-    <section class='main'>
+    <!-- navbar section -->
+    <nav class="nav-bar">
         <div>
-            <img src="./img/Taskman logo.png" alt="Taskman-icon">
-            <h1>We Are Coming Soon</h1>
-            <div class="description">
-                <p>We are almost there. We are working on a new and exciting product that we know you will like!
-                    Enter your E-mail below to be the first to know when we launch it.
-                </p>
-            </div>
+            <img src="./img/Taskman logo.png" alt="taskman-logo">
+        </div>
+        <div>
+           <a href="https://instagram.com/taskman_ng?igshid=hgpli41surfg" target="_blank"><i class="fa fa-instagram fa-2x"></i></a> 
+            <a href="https://twitter.com/taskman_ng" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+        </div>
+    </nav>
+
+    <!-- content section -->
+    <section class="container">
+        <div class="all-svgs">
+            <div><img class="svg-1" src="./img/Path 102.svg" alt="svg"></div>
+            <div> <img class="svg-2" src="./img/Path 102.svg" alt="svg"></div>
+        </div>
+
+        <div class="description">
+            <div class="main-content">
+                <h1 class="heading-text">We Are Coming Soon!</h1>
+                <p class="paragraph-text">We are almost there. We are working on a new and exciting product that we know you will like!</p>
+            
+    
             <form action="/post-email" method="POST">
-                <input type="email" name="Email" id="" placeholder="Your Email Here" required=''>
+                <input type="email" name="Email" id="" placeholder="Enter your email" required=''>
                 <input type="submit" value="Notify Me">
             </form>
-            <div class="icon">
-                <a href="https://instagram.com/taskman_ng?igshid=hgpli41surfg" target="_blank"><i
-                        class="fa fa-instagram fa-2x"></i></a>
-                <a href="https://twitter.com/taskman_ng" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
             </div>
+        </div>
+        <div class="group-img">
+            <img class="img-fluid" src="./img/Group 35.svg" alt="">
         </div>
     </section>
 </body>
