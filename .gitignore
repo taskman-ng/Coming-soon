@@ -1,2 +1,4 @@
 .cpanel.yml
 /node_modules
+public/config.php
+.idea/
