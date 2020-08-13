@@ -35,8 +35,8 @@
                 <p class="paragraph-text">We are almost there. We are working on a new and exciting product that we know you will like!</p>
             
     
-            <form action="/post-email" method="POST">
-                <input type="email" name="Email" id="" placeholder="Enter your email" required=''>
+            <form action="post-email" method="POST">
+                <input type="email" name="email" id="" placeholder="Enter your email" required=''>
                 <input type="submit" value="Notify Me">
             </form>
             </div>
